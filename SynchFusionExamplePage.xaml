@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SynchFusionExample" 
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfSchedule.XForms;assembly=Syncfusion.SfSchedule.XForms"
+             x:Class="SynchFusionExample.SynchFusionExamplePage">
+
+    <StackLayout>
+        <syncfusion:SfSchedule x:Name="Schedule" ScheduleView="MonthView" ShowAppointmentsInline="True" />
+
+        <Button x:Name="ButtonMonthView" Text="Month View" Clicked="ButtonMonthView_Clicked" />
+        <Button x:Name="ButtonWeekView" Text="Week View" Clicked="ButtonWeekView_Clicked" />
+    </StackLayout>
+    
+</ContentPage>
